@@ -7,6 +7,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <picture>
+          <source srcSet="/static/media/test-1920x1080.webp" type="image/webp" />
+          <img src="/static/media/test-1920x1080.png" alt="Test" />
+        </picture>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
